@@ -1,0 +1,17 @@
+class Calculate
+{
+	static void Area ()
+	{
+		float base = 4.8;
+		float height = 5.33;
+		float result = base * height;
+		System.out.println (result);
+	}
+}
+class MethodCallingPall 
+{
+	public static void main(String[] args) 
+	{
+		Calculate.Area();
+	}
+}
